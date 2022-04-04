@@ -1,0 +1,18 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 80;
+}
+/*Style para pagina colombia*/
+
+/*Style para pagina internacional*/
+.Chart-box{
+	font-size: 25px;
+	height: 60%;
+	width: 25%;
+	margin: 3em;
+	border-color: black;
+}
+
+/*Style para pagina MundoMundial*/
