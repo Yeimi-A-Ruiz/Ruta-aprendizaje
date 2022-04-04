@@ -1,17 +1,49 @@
 * {
-	padding: 0px;
-	margin: 0px;
 	font-family: 'Lato', sans-serif;
-	font-weight: 80;
+	/*font-weight: 100; "No aplica para esta tipografia, ya que se selecciono un tipografia con weight definido en googlefonts*/
 }
+h1{
+	display: inline-block; /*Propiedad que me permite modificar el estilo de bloque  y ocupar un espacio parcial definido por el contenido*/
+
+}
+h2{
+	/*display: inline; Propiedad para que el elemento se comporte como una caja parcial y no un bloque a lo ancho de la pagina*/
+	display: inline-block;
+}
+
 /*Style para pagina colombia*/
+
+#Landpage-home{
+	box-sizing: content-box;
+	background-image: url(https://cdn.shopify.com/s/files/1/2978/5848/articles/Best-Beach-Chair-for-2021_2000x.jpg?v=1616448669); /*Imagen tomada de https://cdn.shopify.com/s/files/1/2978/5848/articles/Best-Beach-Chair-for-2021_2000x.jpg?v=1616448669*/
+	background-repeat: no-repeat;
+	position: relative;
+	height: 800px;
+	width: 100%;
+}
+#Tittle-Landpage-home{
+	box-sizing: content-box;
+	position: absolute;
+	top: 2.5em;
+	left: 4.5em;
+	z-index: 100;
+	font-size: 6em;
+}
+#Eslogan-Landpage-home{
+	box-sizing: content-box;
+	position: absolute;
+	top: 12em;
+	left: 20em;
+	z-index: 90;
+	font-size: 3em;
+}
 
 /*Style para pagina internacional*/
 .Chart-box{
 	font-size: 25px;
 	height: 60%;
 	width: 25%;
-	margin: 3em;
+	margin: 0;
 	border-color: black;
 }
 
