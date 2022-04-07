@@ -17,11 +17,13 @@ h2{
 	box-sizing: content-box;
 	background-image: url(https://cdn.shopify.com/s/files/1/2978/5848/articles/Best-Beach-Chair-for-2021_2000x.jpg?v=1616448669); /*Imagen tomada de https://cdn.shopify.com/s/files/1/2978/5848/articles/Best-Beach-Chair-for-2021_2000x.jpg?v=1616448669*/
 	background-repeat: no-repeat;
+	background-size: cover;
 	position: relative;
-	height: 800px;
+	/*height: 800px;*/
+	min-height: 800px;
 	width: 100%;
 }
-#Tittle-Landpage-home{
+#Tittle-Landpage-home {
 	box-sizing: content-box;
 	position: absolute;
 	top: 2.5em;

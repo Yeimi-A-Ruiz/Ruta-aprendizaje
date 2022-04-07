@@ -1,0 +1,145 @@
+*{
+    font-family: 'sen', sans-serif;
+    font-weight: 700;    
+}
+body{
+    background-color: #ede8df;
+    /* convención de colores 
+    #a7ce58 - verde sanki; 
+    #00c1de - celeste corte; 
+    #ede8df - marmol neutro*/
+}
+header{
+    background-color: #00c1de;
+}
+footer{
+    background-color: #a7ce58;
+    padding: 10px 5px;
+    }
+h2{
+    font-size: 1.5rem;
+    color: #a7ce58;
+    text-shadow: 0.1rem 0.1rem 0.2rem #000;
+}
+
+/* --------------------MENU NAVEGACIÓN */
+
+.nav{    
+    padding: 1.5em 1em;    
+}
+.nav__ul{
+    
+}
+.nav__il{
+    list-style: none;
+    display: inline-block;
+    padding: 0 2em ;
+    color: #bbb; 
+    
+}
+.nav__il a{
+    color: #ede8df;
+    text-decoration: none;
+}
+.nav__il i{
+    background-color: #000;
+    
+}
+
+/*-------------------------------- SECCION PRODUCTOS */
+
+.Sec-Productos{
+    padding: 20px;
+}
+.Grid-container{
+    display: grid;
+    grid-template-rows: repeat(3,150px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    border: 2px solid #000;
+}
+.grid-item{
+    border: 2px solid #000;
+    
+}
+ 
+/* -------------------------------Seccion formulario */
+
+.flex-title-form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #00889e;
+    padding: 1rem;
+    margin: 30px 20px -30px 20px;
+    max-width: 1200px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    
+}
+.flex-container-form{
+    /* Se define la caja como flexible */
+    display: flex;
+    /* Se define posición centrada, en este caso verticalemnte, *validar porque motivo se centra verticalmente */
+    align-items: center;
+    /* Para poder configurar al momento de diseñarse como responsive */
+    flex-wrap: wrap;
+    /* Se alinea dentro del espacio den contenedor */
+    justify-content: center;
+    background: #00889e;
+    margin: 30px 20px;
+    max-width: 1200px;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.form{
+    min-width: 400px;    
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    order: 5;
+    }
+.form__input{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 0.2rem solid #a7ce58;
+    background: transparent;
+    color: #fff;
+}
+.form__input[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;    
+    background: #a7ce58;
+    color: #fff;
+}
+.form__input:focus{
+    outline: none;
+    border-bottom: 0.2rem solid #ffe23c;
+    background: linear-gradient(to bottom, transparent, #00c1de);
+}
+.form textarea{
+    min-height: 120px;
+    resize: none;
+}
+.flex-container-circle{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 20px;
+    padding: 1rem;
+    /* border-style: dashed; */
+    box-shadow: .3rem .3rem .8rem #000;
+    order: 1;
+}
+.flex-container-circle div img{    
+    width: 90%;
+    margin: 5%;
+       
+}
