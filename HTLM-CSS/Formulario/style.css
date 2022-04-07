@@ -1,6 +1,6 @@
 *{
     font-family: 'sen', sans-serif;
-    font-weight: 700;    
+    /* font-weight: 700;     */
 }
 body{
     background-color: #ede8df;
@@ -10,7 +10,9 @@ body{
     #ede8df - marmol neutro*/
 }
 header{
-    background-color: #00c1de;
+    background-color: #00c1de;    
+    padding: 0;
+    margin: 0;
 }
 footer{
     background-color: #a7ce58;
@@ -25,25 +27,27 @@ h2{
 /* --------------------MENU NAVEGACIÓN */
 
 .nav{    
-    padding: 1.5em 1em;    
+    background-color: #ede8df;    
 }
 .nav__ul{
     
 }
 .nav__il{
-    list-style: none;
+    /* background-color: #f00; */
     display: inline-block;
-    padding: 0 2em ;
-    color: #bbb; 
-    
+    list-style: none;    
+    padding: 12px;
+    color: #a7ce58;
 }
 .nav__il a{
-    color: #ede8df;
+    /* background-color: #0f0; */
+    color: #666;
     text-decoration: none;
 }
 .nav__il i{
-    background-color: #000;
-    
+    width: 20px;
+    box-sizing: border-box; 
+    text-align: center;        
 }
 
 /*-------------------------------- SECCION PRODUCTOS */
