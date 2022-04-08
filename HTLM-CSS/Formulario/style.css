@@ -26,11 +26,11 @@ h2{
 
 /* --------------------MENU NAVEGACIÓN */
 
+.nav__respv{
+    display: none;
+}
 .nav{    
     background-color: #ede8df;    
-}
-.nav__ul{
-    
 }
 .nav__il{
     /* background-color: #f00; */
@@ -39,13 +39,51 @@ h2{
     padding: 12px;
     color: #a7ce58;
 }
+.nav__il:hover{
+    border-bottom: 0.2rem solid #a7ce58;
+    background: linear-gradient(to bottom, transparent, #00c1de);
+}
 .nav__il a{
     /* background-color: #0f0; */
     color: #666;
     text-decoration: none;
 }
 .nav__il i{
-    width: 20px;
+    box-sizing: border-box; 
+    text-align: center;        
+}
+
+@media only screen and (max-width:600px){
+    .nav__ul{
+        display: none;
+        }
+    .nav__respv{
+        display: block;
+    }
+}
+
+/* --------------------MENU NAVEGACIÓN RESPONSIVE*/
+
+.nav__respv{    
+    background-color: #ede8df;    
+}
+.nav__respv-il{
+    /* background-color: #f00; */
+    display: block;
+    list-style: none;    
+    padding: 12px;
+    color: #a7ce58;
+}
+.nav__respv-il:hover{
+    border-bottom: 0.2rem solid #a7ce58;
+    background: linear-gradient(to bottom, transparent, #00c1de);
+}
+.nav__respv-il a{
+    /* background-color: #0f0; */
+    color: #666;
+    text-decoration: none;
+}
+.nav__respv-il i{
     box-sizing: border-box; 
     text-align: center;        
 }
