@@ -30,7 +30,8 @@ h2{
     display: none;
 }
 .nav{    
-    background-color: #ede8df;    
+    background-color: #ede8df; 
+    text-align: center;   
 }
 .nav__il{
     /* background-color: #f00; */
@@ -41,7 +42,7 @@ h2{
 }
 .nav__il:hover{
     border-bottom: 0.2rem solid #a7ce58;
-    background: linear-gradient(to bottom, transparent, #00c1de);
+    /* background: linear-gradient(to bottom, transparent, #00c1de); */
 }
 .nav__il a{
     /* background-color: #0f0; */
@@ -65,7 +66,8 @@ h2{
 /* --------------------MENU NAVEGACIÓN RESPONSIVE*/
 
 .nav__respv{    
-    background-color: #ede8df;    
+    background-color: #ede8df;
+    text-align: right;    
 }
 .nav__respv-il{
     /* background-color: #f00; */
@@ -76,7 +78,7 @@ h2{
 }
 .nav__respv-il:hover{
     border-bottom: 0.2rem solid #a7ce58;
-    background: linear-gradient(to bottom, transparent, #00c1de);
+    /* background: linear-gradient(to bottom, transparent, #00c1de); */
 }
 .nav__respv-il a{
     /* background-color: #0f0; */
@@ -95,9 +97,9 @@ h2{
 }
 .Grid-container{
     display: grid;
-    grid-template-rows: repeat(3,150px);
+    grid-template-rows: repeat(3,2frpx);
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: .25rm;
     border: 2px solid #000;
 }
 .grid-item{
@@ -136,7 +138,7 @@ h2{
     border-bottom-left-radius: 1rem;
 }
 .form{
-    min-width: 400px;    
+    min-width: 320px;    
     flex: 1;
     text-align: center;
     padding: 10px;
