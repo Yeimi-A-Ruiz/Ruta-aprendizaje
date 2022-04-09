@@ -100,10 +100,12 @@ h2{
     grid-template-rows: repeat(3,2frpx);
     grid-template-columns: repeat(3, 1fr);
     grid-gap: .25rm;
-    border: 2px solid #000;
+    max-width: 850px;
+        /* border: 2px solid #000; */
 }
 .grid-item{
-    border: 2px solid #000;
+    /* border: 2px solid #000; */
+    max-width: 250px;
     
 }
  
