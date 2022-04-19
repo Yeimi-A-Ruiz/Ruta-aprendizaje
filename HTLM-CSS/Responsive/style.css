@@ -1,0 +1,79 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+.content{
+    display: flex;
+    /* Definir main axis */
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+.header,.sidebar, .main, .aside, .footer{
+    padding: 20px;
+
+}
+.header{
+    background-color: #add8e6;
+    flex-basis: 60px;
+    width: 100vw;    
+}
+.sidebar{
+    background-color: #0f005b;
+    flex-direction: row;
+    justify-content: left;
+ 
+}
+.main{
+    background-color: #6a5acd;
+    flex-basis: 300px;
+    flex-grow: 2;
+    flex-shrink: 0;
+   
+}
+.aside{
+    background-color: #483d8b;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    
+}
+.footer{
+    background-color: #ee82ee;    
+    flex-grow: 1;
+    
+       
+}
+
+
+
+
+@media screen and (min-width:700px) {
+    .content {
+        display: grid;
+        grid-template-rows: 80px 1fr 1fr 1fr 1fr 80px;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .header{
+        grid-column: 1 / span 4;
+        grid-row: 1 / 2;
+    } 
+    .sidebar{
+        grid-row: 2 / 7;
+        grid-column: 1 / 2;
+        height: 100%;
+    } 
+    .main{
+        grid-row: 2 / 6;
+        grid-column: 2 / span 4;
+    } 
+    .aside{
+        grid-row: 2 / 6;
+        grid-column: 4 / 5;
+    }
+    .footer{
+        grid-row: 6 / 7;
+        grid-column: 2 / span 4;
+    }
+    
+}

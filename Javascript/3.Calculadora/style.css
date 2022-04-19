@@ -1,0 +1,34 @@
+*
+{
+    font-family: 'Roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    /* box-sizing: border-box; */
+}
+.landpage
+{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    position: relative;
+}
+.landpage_pront
+{
+    text-align: center;
+}
+.landpage_pront h1
+{
+    color: #fff;
+    text-transform: uppercase; 
+    position: relative;
+    line-height: 0;    
+}
+.landpage_pront p
+{
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;    
+}
